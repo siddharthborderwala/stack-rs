@@ -1,0 +1,18 @@
+[package]
+name = "stack"
+version = "0.1.0"
+authors = ["Siddharth Borderwala <siddharthborderwala@gmail.com>"]
+edition = "2018"
+description = "A crate exposing the stack data-structure"
+repository = "https://github.com/siddharthborderwala/stack-rs/"
+license = "MIT"
+keywords = ["stack", "algorithm", "lifo"]
+
+[badges]
+maintenance = { status = "actively-developed" }
+
+[lib]
+name = "stack"
+path = "src/lib.rs"
+
+[dependencies]
